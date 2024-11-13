@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Угадай число</h1>
+
+      <p>Я загадал число от 1 до 100.</p>
+
+      <div class="input-display">
+        <p id="numberInput"></p>
+      </div>
+
+      <p id="message"></p>
+      <p id="attempts">Попыток: 0</p>
+
+      <p id="guessedNumber"></p>
+
+      <div class="number-buttons">
+        <button class="number-button" data-value="1">1</button>
+        <button class="number-button" data-value="2">2</button>
+        <button class="number-button" data-value="3">3</button>
+        <button class="number-button" data-value="4">4</button>
+        <button class="number-button" data-value="5">5</button>
+        <button class="number-button" data-value="6">6</button>
+        <button class="number-button" data-value="7">7</button>
+        <button class="number-button" data-value="8">8</button>
+        <button class="number-button" data-value="9">9</button>
+        <button class="number-button" data-value="0">0</button>
+        <button id="clearButton"><img class="img__btn" src="./img/btn_clearr.svg" alt=""></button>
+        <button id="checkButton"><img class="img__btn" src="./img/btn_check.svg" alt=""></button> 
+      </div>
+<button id="newGo" class="newGame none"> <span class="text">Начать заново</span> </button>
+      
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
